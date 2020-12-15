@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> COVID Tracker</title>
+
+	<link rel="shortcut icon" href="corona.jpeg">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+	<h1 class="title">COVID-19 Tracker Tool</h1>
+	<h2 class="subtitle">The latest statistics regarding the "Corona Virus".</h2>
+	<div class="data-container">
+		<div class="stats-container">
+			<h4>Cases</h4>
+			<h1 id="cases"></h1>
+			<h4>Deaths</h4>
+			<h1 id="deaths"></h1>
+			<h4>% of Deaths</h4>
+			<h1 id="percent"></h1>
+		</div>
+		<div class="location-container">
+			<h4>Country</h4>
+			<h1 id="country">United States</h1>
+			<h4>Population</h4>
+			<h1 id="population"></h1>
+			<h4>Last Updated</h4>
+			<h1 id="update"></h1>
+		</div>
+	</div>
+    <div class="data-container">
+		<div class="stats-container">
+			<h4>Cases</h4>
+			<h1 id="cases2"></h1>
+			<h4>Deaths</h4>
+			<h1 id="deaths2"></h1>
+			<h4>% of Deaths</h4>
+			<h1 id="percent2"></h1>
+		</div>
+		<div class="location-container">
+			<h4>Country</h4>
+			<h1 id="country">Mexico</h1>
+			<h4>Population</h4>
+			<h1 id="population2"></h1>
+			<h4>Last Updated</h4>
+			<h1 id="update2"></h1>
+ 		</div>
+	</div>
+  <div class="data-container">
+		<div class="stats-container">
+			<h4>Cases</h4>
+			<h1 id="cases3"></h1>
+			<h4>Deaths</h4>
+			<h1 id="deaths3"></h1>
+			<h4>% of Deaths</h4>
+			<h1 id="percent3"></h1>
+		</div>
+		<div class="location-container">
+			<h4>Country</h4>
+			<h1 id="country">Peru</h1>
+			<h4>Population</h4>
+			<h1 id="population3"></h1>
+			<h4>Last Updated</h4>
+			<h1 id="update3"></h1>
+		</div>
+	</div> 
+  <div class="data-container">
+		<div class="stats-container">
+			<h4>Cases</h4>
+			<h1 id="cases4"></h1>
+			<h4>Deaths</h4>
+			<h1 id="deaths4"></h1>
+			<h4>% of Deaths</h4>
+			<h1 id="percent4"></h1>
+		</div>
+		<div class="location-container">
+			<h4>Country</h4>
+			<h1 id="country">Australia</h1>
+			<h4>Population</h4>
+			<h1 id="population4"></h1>
+			<h4>Last Updated</h4>
+			<h1 id="update4"></h1>
+        </div>
+    </div>
+    <h1 class="footer"> By QB | Information provided by <a href="https://systems.jhu.edu/research/public-health/ncov/">Johns Hopkins University</a></h1>
+<!-- all scripts go after this comment -->
+  <script>
+    (function() {
+    var cors_api_host = 'cors-anywhere.herokuapp.com';
+    var cors_api_url = 'https://' + cors_api_host + '/';
+    var slice = [].slice;
+    var origin = window.location.protocol + '//' + window.location.host;
+    var open = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function() {
+        var args = slice.call(arguments);
+        var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+        if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
+            targetOrigin[1] !== cors_api_host) {
+            args[1] = cors_api_url + args[1];
+        }
+        return open.apply(this, args);
+    };
+})();
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
