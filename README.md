@@ -28,9 +28,9 @@ Figma --> _Wireframe Located Above_
 ## Project Designed by: Quiana Berry x Katherine Fernandez
 
  :robot: Future Project
->- Use mapping tool
->- Side by side comparisons
->- Search bar and comparison of countries rates at a time
+>- Embedded mapping tool- hover over location for live cases
+>- Side by side comparisons of different places cases and the weather there
+>- Search bar with autocomplete of places
 
 **API Resources**
 
