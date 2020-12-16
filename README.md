@@ -3,7 +3,7 @@
 
 1. **Name:** Covid-19 Tracker Tool 
 
-2. **Features:**  Provides up-to-date data (updated every 12 hours) about Coronavirus outbreak. Includes numbers about confirmed cases, numbers and percentages of deaths in the United States, Mexico, Peru, & Australia.
+2. **Features:**  Provides up-to-date data (updated every 12 hours) about the Coronavirus outbreak. Includes recent data about confirmed cases, numbers and percentages of deaths in the United States, Mexico, Peru, & Australia.
 
 :airplane: Simple App for travelers & new- movers:house:
 >- People are getting bombarded with news about COVID on a daily basis, we want to simplify the updates 
