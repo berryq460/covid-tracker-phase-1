@@ -53,11 +53,11 @@ function getCovidStats3() {
 		let confirmedCases3 = data.location.latest.confirmed;
 		let deaths3 = data.location.latest.deaths;
 
-		document.getElementById('population3').innerHTML = population2.toLocaleString('en');
-		document.getElementById('update3').innerHTML = update2.substr(0, 10);
-		document.getElementById('cases3').innerHTML = confirmedCases2.toLocaleString('en');
-		document.getElementById('deaths3').innerHTML = deaths2.toLocaleString('en');
-		document.getElementById('percent3').innerHTML = ((Number(deaths2)/Number(confirmedCases2))*100).toLocaleString("en", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + "%";
+		document.getElementById('population3').innerHTML = population3.toLocaleString('en');
+		document.getElementById('update3').innerHTML = update3.substr(0, 10);
+		document.getElementById('cases3').innerHTML = confirmedCases3.toLocaleString('en');
+		document.getElementById('deaths3').innerHTML = deaths3.toLocaleString('en');
+		document.getElementById('percent3').innerHTML = ((Number(deaths3)/Number(confirmedCases3))*100).toLocaleString("en", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + "%";
 
 	})
 	.catch(function() {
@@ -75,11 +75,11 @@ function getCovidStats4() {
 		let confirmedCases4 = data.location.latest.confirmed;
 		let deaths4 = data.location.latest.deaths;
 
-		document.getElementById('population4').innerHTML = population2.toLocaleString('en');
-		document.getElementById('update4').innerHTML = update2.substr(0, 10);
-		document.getElementById('cases4').innerHTML = confirmedCases2.toLocaleString('en');
-		document.getElementById('deaths4').innerHTML = deaths2.toLocaleString('en');
-		document.getElementById('percent4').innerHTML = ((Number(deaths2)/Number(confirmedCases2))*100).toLocaleString("en", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + "%";
+		document.getElementById('population4').innerHTML = population4.toLocaleString('en');
+		document.getElementById('update4').innerHTML = update4.substr(0, 10);
+		document.getElementById('cases4').innerHTML = confirmedCases4.toLocaleString('en');
+		document.getElementById('deaths4').innerHTML = deaths4.toLocaleString('en');
+		document.getElementById('percent4').innerHTML = ((Number(deaths4)/Number(confirmedCases4))*100).toLocaleString("en", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + "%";
 
 	})
 	.catch(function() {
