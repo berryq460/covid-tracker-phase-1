@@ -12,7 +12,8 @@ This app will help travelers or new movers get their information in a super easy
 >- Users: travelers or people moving who want to quickly assess and compare different countries before making the move. 
 
 3. **Wireframes:** 
-Figma --> _Wireframe_
+Figma --> <img width="718" alt="Prototype" src="https://user-images.githubusercontent.com/24463725/102300464-fe21d480-3f22-11eb-91a9-419c7f5d6010.png">
+
 
 4. **APIs we will use:**   
 >-  4 API endpoints: From the Coronavirus Tracker API (Herokuapp)- United States, Mexico, Peru, & Australia.
