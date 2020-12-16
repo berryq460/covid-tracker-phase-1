@@ -1,9 +1,13 @@
-# Simple  Covid Tracker Tool 
+# Simple  Covid Tracker Tool :microscope:
 ![covid-19-cell-and-world-map-design-vector](https://user-images.githubusercontent.com/24463725/102285380-32d26380-3f04-11eb-8d9c-ed652f4414bf.jpg)
 
-1. **Name:** Covid-19 Tracker Tool
+1. **Name:** Covid-19 Tracker Tool :virus:
 
 2. **Features:**  Provides up-to-date data (updated every 12 hours) about Coronavirus outbreak. Includes numbers about confirmed cases, numbers and percentages of deaths in the United States, Mexico, Peru, & Australia.
+
+:airplane: :house:
+>- People are getting bombarded with news about COVID on a daily basis, we want to simplify the updates on where travelers or new movers can get their information easily
+>- For : travelers or people moving who want to quickly asses and compare different countries before making the move :airplane:
 
 3. **Wireframes:** 
 Figma --> _Wireframe Located Above_
@@ -18,7 +22,14 @@ Figma --> _Wireframe Located Above_
 >- Implementing responsive design on 3 screen sizes, desktop, tablet and mobile using media queries.
 >- Hosting on either Netlify or Surge.
 >- Using an ENV file if our API requires the use of an API Key
+
 ## Project Designed by: _Quiana Berry (Project Lead) x Katherine Fernandez (UI/UX)_
+
+Future Project :robot:
+
+>-Use mapping tool
+>-Side by side comparisons
+>-Search bar and comparison of countries rates at a time
 
 **API Resources**
 
