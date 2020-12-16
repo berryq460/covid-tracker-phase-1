@@ -37,7 +37,7 @@ Figma --> <img width="718" alt="Prototype" src="https://user-images.githubuserco
 
 | API Resource Type  | Links |
 | ------------- | ------------- |
-| Coronavirus Tracker API  | https://coronavirus-tracker-api.herokuapp.com/v2/locations/  |
+| Coronavirus Tracker API  | https://github.com/ExpDev07/coronavirus-tracker-api  |
 
 
 :wave: **THANKS for reading**
