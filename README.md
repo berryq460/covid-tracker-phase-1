@@ -7,7 +7,7 @@
 
 :airplane: Simple App for travelers & new- movers:house:
 >- People are getting bombarded with news about COVID on a daily basis, we want to simplify the updates 
->- Millions of people have moved during the pandemic. Some people can't avoid travel (Whether through their work or other circumstances) 
+>- Millions of people have moved during the pandemic. Some people can't avoid travel (Whether through their work or other circumstances) and other people may want to move to a place with lower cases.
 This app will help travelers or new movers get their information in a super easy and simplistic way.
 >- Users: travelers or people moving who want to quickly assess and compare different countries before making the move. 
 
