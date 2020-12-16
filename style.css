@@ -1,62 +1,91 @@
-* {
-	margin: 0;
-	padding: 0;
+*{
+  padding: 0px;
+  margin: 0px;
+
 }
 
-html {
-	height: 100%;
-	width: 100%;
-}
-h1, h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	text-align: center;
-	padding-bottom: 20px;
-	font-size: 250%;
+h1 {
+  color: #fd8065;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size:10vw;
 }
 
-.title {
-	background: linear-gradient(to right, #feb47b, #ff7e5f);
-	padding: 20px;
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3{
+  font-weight: 400 !important;
+}
+
+.title{
+  font-weight: bolder;
+}
+
+.logo{
+  width: 7rem;
+}
+
+.main{
+  background-image: url(./images/background-image.jpeg);
+  background-size: 100% 135%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-inner{
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .subtitle {
-	padding: 20px;
-	font-size: 150%;
+  padding: 20px;
+  font-weight: 600;
 }
 
-div {
-	padding: 20px;
+.info-box{
+  background-color: white;
+  text-align: center;
+  border: 10px solid #fd8065;
+  border-radius: 20px;
 }
-
-.stats-container {
-	text-align: center;
-	float: right;
-	display: inline-block;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h2.subtitle {
+      font-size: 18px;
+    }
+  h1.title{
+      font-size: 28px;
+      margin-top: 40px !important;
+  }
 }
-.location-container {
-	display: inline-block;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  h2.subtitle {
+      font-size: 23px;
+    }
+  h1.title{
+      font-size: 35px;
+      margin-top: 35px !important;
+  }
 }
-.data-container {
-	border: 2px solid #feb47b;
-	margin-right: 30%;
-	margin-left: 30%;
-
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h2.subtitle {
+      font-size: 30px;
+      
+    }
+  h1.title{
+      font-size: 40px;
+  }
 }
-h4 {
-	font-size: 85%;
- 	color: gray;
- 	font-family: 'Roboto', sans-serif;
- 	font-weight: 300;
- 	text-align: center;
- 	padding-top: 20px;
- 	padding-left: 20px;
- 	padding-right: 20px;
- 	padding-bottom: 5px;
-}
-.footer {
-	font-family: 'Roboto', sans-serif;
-	bottom: 0;
-	font-size: 75%;
-	padding: 5px;
+@media only screen and (min-width: 991px) and (max-width: 1228px) {
+h3 {
+  font-size: 21px !important;
+  }
 }

@@ -1,110 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title> COVID Tracker</title>
-
-	<link rel="shortcut icon" href="corona.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COVID Tracker</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 	<script type="text/javascript" src="app.js"></script>
-
 </head>
 <body>
-	<h1 class="title">COVID-19 Tracker Tool</h1>
-	<h2 class="subtitle">The latest statistics regarding the "Corona Virus".</h2>
-	<div class="data-container">
-		<div class="stats-container">
-			<h4>Cases</h4>
-			<h1 id="cases"></h1>
-			<h4>Deaths</h4>
-			<h1 id="deaths"></h1>
-			<h4>% of Deaths</h4>
-			<h1 id="percent"></h1>
-		</div>
-		<div class="location-container">
-			<h4>Country</h4>
-			<h1 id="country">United States</h1>
-			<h4>Population</h4>
-			<h1 id="population"></h1>
-			<h4>Last Updated</h4>
-			<h1 id="update"></h1>
-		</div>
-	</div>
-    <div class="data-container">
-		<div class="stats-container">
-			<h4>Cases</h4>
-			<h1 id="cases2"></h1>
-			<h4>Deaths</h4>
-			<h1 id="deaths2"></h1>
-			<h4>% of Deaths</h4>
-			<h1 id="percent2"></h1>
-		</div>
-		<div class="location-container">
-			<h4>Country</h4>
-			<h1 id="country">Mexico</h1>
-			<h4>Population</h4>
-			<h1 id="population2"></h1>
-			<h4>Last Updated</h4>
-			<h1 id="update2"></h1>
- 		</div>
-	</div>
-  <div class="data-container">
-		<div class="stats-container">
-			<h4>Cases</h4>
-			<h1 id="cases3"></h1>
-			<h4>Deaths</h4>
-			<h1 id="deaths3"></h1>
-			<h4>% of Deaths</h4>
-			<h1 id="percent3"></h1>
-		</div>
-		<div class="location-container">
-			<h4>Country</h4>
-			<h1 id="country">Peru</h1>
-			<h4>Population</h4>
-			<h1 id="population3"></h1>
-			<h4>Last Updated</h4>
-			<h1 id="update3"></h1>
-		</div>
-	</div> 
-  <div class="data-container">
-		<div class="stats-container">
-			<h4>Cases</h4>
-			<h1 id="cases4"></h1>
-			<h4>Deaths</h4>
-			<h1 id="deaths4"></h1>
-			<h4>% of Deaths</h4>
-			<h1 id="percent4"></h1>
-		</div>
-		<div class="location-container">
-			<h4>Country</h4>
-			<h1 id="country">Australia</h1>
-			<h4>Population</h4>
-			<h1 id="population4"></h1>
-			<h4>Last Updated</h4>
-			<h1 id="update4"></h1>
+    <section class="main">
+        <header class="d-flex align-items-center justify-content-center bg-light">
+            <div class="d-flex align-items-center justify-content-center my-2">
+                <img class="logo" src="images/logo-orange.png" alt="Covid logo" />
+                <h1 class="title mt-3">Covid-19 Tracker Tool</h1>
+            </div>
+        </header>
+        <div class="main-inner container-fluid pb-5">
+            <h2 class="subtitle pt-3 m-0 pb-1">The latest statistics regarding the "Corona Virus".</h2>
+            <div class="d-flex flex-wrap justify-content-around align-items-center">
+                <div class="d-flex flex-wrap justify-content-center align-items-center col-10 col-sm-10 col-lg-5 info-box my-2 p-5">
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
+                        <span>Country</span>
+                        <h3 id="country">United States</h3>
+                        <span>Population</span>
+                        <h3 id="population"></h3>
+                        <span>Last Updated</span>
+                        <h3 id="update"></h3>
+                    </div>
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
+                        <span>Cases</span>
+                        <h3 id="cases"></h3>
+                        <span>Deaths</span>
+                        <h3 id="deaths"></h3>
+                        <span>% of Deaths</span>
+                        <h3 id="percent"></h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center align-items-center col-10 col-sm-10 col-lg-5 info-box my-2 p-5">
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5  p-0">
+                        <span>Country</span>
+                        <h3 id="country">Mexico</h3>
+                        <span>Population</span>
+                        <h3 id="population2"></h3>
+                        <span>Last Updated</span>
+                        <h3 id="update2"></h3>
+                    </div>
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5  p-0">
+                        <span>Cases</span>
+                        <h3 id="cases2"></h3>
+                        <span>Deaths</span>
+                        <h3 id="deaths2"></h3>
+                        <span>% of Deaths</span>
+                        <h3 id="percent2"></h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center align-items-center col-10 col-sm-10 col-lg-5 info-box my-2 p-5">
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
+                        <span>Country</span>
+                        <h3 id="country">Peru</h3>
+                        <span>Population</span>
+                        <h3 id="population3"></h3>
+                        <span>Last Updated</span>
+                        <h3 id="update3"></h3>
+                    </div>
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
+                        <span>Cases</span>
+                        <h3 id="cases3"></h3>
+                        <span>Deaths</span>
+                        <h3 id="deaths3"></h3>
+                        <span>% of Deaths</span>
+                        <h3 id="percent3"></h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center align-items-center col-10 col-sm-10 col-lg-5 info-box my-2 p-5">
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
+                        <span>Country</span>
+                        <h3 id="country">Australia</h3>
+                        <span>Population</span>
+                        <h3 id="population4"></h3>
+                        <span>Last Updated</span>
+                        <h3 id="update4"></h3>
+                    </div>
+                    <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
+                        <span>Cases</span>
+                        <h3 id="cases4"></h3>
+                        <span>Deaths</span>
+                        <h3 id="deaths4"></h3>
+                        <span>% of Deaths</span>
+                        <h3 id="percent4"></h3>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <h1 class="footer"> By QB | Information provided by <a href="https://systems.jhu.edu/research/public-health/ncov/">Johns Hopkins University</a></h1>
-<!-- all scripts go after this comment -->
-  <script>
-    (function() {
-    var cors_api_host = 'cors-anywhere.herokuapp.com';
-    var cors_api_url = 'https://' + cors_api_host + '/';
-    var slice = [].slice;
-    var origin = window.location.protocol + '//' + window.location.host;
-    var open = XMLHttpRequest.prototype.open;
-    XMLHttpRequest.prototype.open = function() {
-        var args = slice.call(arguments);
-        var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
-        if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
-            targetOrigin[1] !== cors_api_host) {
-            args[1] = cors_api_url + args[1];
-        }
-        return open.apply(this, args);
-    };
-})();
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
-<script src="./app.js"></script>
+        <footer class="d-flex align-items-center justify-content-center bg-light p-2">
+            <a href="https://www.linkedin.com/in/katfernandez22/">
+                <img class="m-2" src="images//linkedin-icon.png" alt="Github icon" width="100px">
+            </a>
+            <a href="https://github.com/berryq460/TKHFinalProjectPhase1">
+                <img class="m-2" src="images/github-icon.png" alt="Github icon" width="100px">
+            </a>
+            <a href="https://www.linkedin.com/in/quiana-c-berry-b727a7143/">
+                <img class="m-2" src="images/linkedin-icon.png" alt="Github icon" width="100px">
+            </a>
+        </footer>
+    </section>
 </body>
 </html>
