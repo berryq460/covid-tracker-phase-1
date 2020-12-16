@@ -1,7 +1,11 @@
+//const axios = require('axios'); //when npm is ussed to import axios
+
 function getCovidStats() {
-	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/180')
-	.then(function(resp) { return resp.json() })
+	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/180').then(resp => { //call that data resp and do stuff with it inside curly brace
+		return resp.data
+	})
 	.then(function(data) {
+		console.log("axios test")
         console.log(data);
 		let population = data.location.country_population;
 		let update = data.location.last_updated;
@@ -23,8 +27,9 @@ function getCovidStats() {
 /////Mexico
 
 function getCovidStats2() {
-	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/224')
-	.then(function(resp) { return resp.json() })
+		axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/224').then(resp => { //call that data resp and do stuff with it inside curly brace
+			return resp.data
+		})
 	.then(function(data) {
 		let population2 = data.location.country_population;
 		let update2 = data.location.last_updated;
@@ -43,10 +48,11 @@ function getCovidStats2() {
 	})
 	setTimeout(getCovidStats2, 43200000) // update every 12 hours
 }
-
+//PEru
 function getCovidStats3() {
-	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/205')
-	.then(function(resp) { return resp.json() })
+	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/205').then(resp => { //call that data resp and do stuff with it inside curly brace
+		return resp.data
+	})
 	.then(function(data) {
 		let population3 = data.location.country_population;
 		let update3 = data.location.last_updated;
@@ -65,10 +71,11 @@ function getCovidStats3() {
 	})
 	setTimeout(getCovidStats3, 43200000) // update every 12 hours
 }
-
+//Australia
 function getCovidStats4() {
-	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/8')
-	.then(function(resp) { return resp.json() })
+	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/8').then(resp => { //call that data resp and do stuff with it inside curly brace
+		return resp.data
+	})
 	.then(function(data) {
 		let population4 = data.location.country_population;
 		let update4 = data.location.last_updated;
@@ -87,7 +94,7 @@ function getCovidStats4() {
 	})
 	setTimeout(getCovidStats4, 43200000) // update every 12 hours
 }
-
+//call fucntion in object that runs function upon loading the pg
 window.onload = function() {
     getCovidStats();
     getCovidStats2();
