@@ -1,7 +1,7 @@
 # :earth_americas: Simple  Covid Tracker Tool :microscope:
 ![covid-19-cell-and-world-map-design-vector](https://user-images.githubusercontent.com/24463725/102285380-32d26380-3f04-11eb-8d9c-ed652f4414bf.jpg)
 
-1. **Name:** Covid-19 Tracker Tool :virus:
+1. **Name:** Covid-19 Tracker Tool 
 
 2. **Features:**  Provides up-to-date data (updated every 12 hours) about Coronavirus outbreak. Includes numbers about confirmed cases, numbers and percentages of deaths in the United States, Mexico, Peru, & Australia.
 
