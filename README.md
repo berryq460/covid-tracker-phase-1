@@ -39,7 +39,7 @@ Figma --> _Wireframe_
 | Coronavirus Tracker API  | https://coronavirus-tracker-api.herokuapp.com/v2/locations/  |
 
 
-:wave:**THANKS for reading **
+:wave: **THANKS for reading **
 
 ![covidapp](https://user-images.githubusercontent.com/24463725/102285782-f81cfb00-3f04-11eb-8545-d072c479290d.jpg)
 
