@@ -5,9 +5,11 @@
 
 2. **Features:**  Provides up-to-date data (updated every 12 hours) about Coronavirus outbreak. Includes numbers about confirmed cases, numbers and percentages of deaths in the United States, Mexico, Peru, & Australia.
 
-:airplane: :house:
->- People are getting bombarded with news about COVID on a daily basis, we want to simplify the updates on where travelers or new movers can get their information easily
->- For : travelers or people moving who want to quickly asses and compare different countries before making the move :airplane:
+:airplane: Simple App for travelers & new- movers:house:
+>- People are getting bombarded with news about COVID on a daily basis, we want to simplify the updates 
+>- Millions of people have moved during the pandemic. Some people can't avoid travel (Whether through their work or other circumstances) 
+This app will help travelers or new movers get their information in a super easy and simplpistic way.
+>- Users: travelers or people moving who want to quickly assess and compare different countries before making the move. 
 
 3. **Wireframes:** 
 Figma --> _Wireframe Located Above_
