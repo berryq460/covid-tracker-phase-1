@@ -12,7 +12,8 @@ This app will help travelers or new movers get their information in a super easy
 >- Users: travelers or people moving who want to quickly assess and compare different countries before making the move. 
 
 3. **Wireframes:** 
- <img width="718" alt="Prototype" src="https://user-images.githubusercontent.com/24463725/102300464-fe21d480-3f22-11eb-91a9-419c7f5d6010.png">
+ <img width="842" alt="Screen Shot 2020-12-16 at 3 00 21 PM" src="https://user-images.githubusercontent.com/24463725/102401986-1ee53b00-3fb2-11eb-8170-698f8598fc1a.png">
+
 
 
 4. **APIs we will use:**   
