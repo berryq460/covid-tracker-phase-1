@@ -25,7 +25,7 @@ Figma --> _Wireframe Located Above_
 >- Hosting on either Netlify or Surge.
 >- Using an ENV file if our API requires the use of an API Key
 
-## Project Designed by: _Quiana Berry x Katherine Fernandez
+## Project Designed by: Quiana Berry x Katherine Fernandez
 
  :robot: Future Project
 >-Use mapping tool
