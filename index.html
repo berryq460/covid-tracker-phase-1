@@ -7,7 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-	<script type="text/javascript" src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script> 
+    <script type="text/javascript" src="app.js"></script>
+    
 </head>
 <body>
     <section class="main">
@@ -18,7 +20,7 @@
             </div>
         </header>
         <div class="main-inner container-fluid pb-5">
-            <h2 class="subtitle pt-3 m-0 pb-1">The latest statistics regarding the "Corona Virus".</h2>
+            <h2 class="subtitle pt-3 m-0 pb-1"></h2>
             <div class="d-flex flex-wrap justify-content-around align-items-center">
                 <div class="d-flex flex-wrap justify-content-center align-items-center col-10 col-sm-10 col-lg-5 info-box my-2 p-5">
                     <div class="col-10 col-sm-10 col-lg-5 col-md-5 p-0">
@@ -106,5 +108,23 @@
             </a>
         </footer>
     </section>
+    <script>
+        (function() {
+        var cors_api_host = 'cors-anywhere.herokuapp.com';
+        var cors_api_url = 'https://' + cors_api_host + '/';
+        var slice = [].slice;
+        var origin = window.location.protocol + '//' + window.location.host;
+        var open = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function() {
+            var args = slice.call(arguments);
+            var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+            if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
+                targetOrigin[1] !== cors_api_host) {
+                args[1] = cors_api_url + args[1];
+            }
+            return open.apply(this, args);
+        };
+    })();
+      </script>
 </body>
 </html>
