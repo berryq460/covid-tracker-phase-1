@@ -1,7 +1,7 @@
 //const axios = require('axios'); //when npm is ussed to import axios
 
 function getCovidStats() {
-	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/180').then(resp => { //call that data resp and do stuff with it inside curly brace
+	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/180').then(resp => { //call the data response and inside function u can do stuff with it inside curly brace
 		return resp.data
 	})
 	.then(function(data) {

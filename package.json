@@ -1,0 +1,8 @@
+{
+  "name": "covid-tracker-phase-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/berryq460/covid-tracker-phase-1.git",
+  "author": "Quiana Berry <berry.quiana@gmail.com>",
+  "license": "MIT"
+}
