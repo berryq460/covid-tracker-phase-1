@@ -1,31 +1,47 @@
-# Virtual Space Exploration for All
-![telescopeglaxy](https://user-images.githubusercontent.com/24463725/107442527-38fc4f00-6b05-11eb-94f1-8efc889971e7.jpg)
+# :earth_americas: Simple  Covid Tracker Tool :microscope:
+![covid-19-cell-and-world-map-design-vector](https://user-images.githubusercontent.com/24463725/102285380-32d26380-3f04-11eb-8d9c-ed652f4414bf.jpg)
 
-1. **Name:** Space Digest
+1. **Name:** Covid-19 Tracker Tool 
 
-2. **Features:**  Our app will target space enthusiasts or STEM nerds looking to get their daily dose of new photos, space weather data, space missions, discoveries and news regarding galactic events occurring near them. 
+2. **Features:**  Provides up-to-date data (updated every 12 hours) about Coronavirus outbreak. Includes numbers about confirmed cases, numbers and percentages of deaths in the United States, Mexico, Peru, & Australia.
 
+:airplane: Simple App for travelers & new- movers:house:
+>- People are getting bombarded with news about COVID on a daily basis, we want to simplify the updates 
+>- Millions of people have moved during the pandemic. Some people can't avoid travel (Whether through their work or other circumstances) and other people may want to move to a place with lower cases.
+This app will help travelers or new movers get their information in a super easy and simplistic way.
+>- Users: travelers or people moving who want to quickly assess and compare different countries before making the move. 
 
 3. **Wireframes:** 
- Coming soon...
+ <img width="842" alt="Screen Shot 2020-12-16 at 3 00 21 PM" src="https://user-images.githubusercontent.com/24463725/102401986-1ee53b00-3fb2-11eb-8170-698f8598fc1a.png">
 
-4. **Components**
-Astro Photo of day  2.mars weather 3 rocket launches past. 4.natural event 5.rocket launches future  6 new space tech patent info 7earth photo 8 satellite photo 9 space weather database- geomag storms 10 SWD: solar flare 11 SWD: coronal mass eject 12 SWD:notifications
 
-5. **APIs we will use:**   
-NASA: https://api.nasa.gov/ Space X:https://github.com/r-spacex/SpaceX-API
 
-6. MVP 
-Space news app-MVP- photos and space info- database data, photo of day, notifications, weather data on Mars
+4. **APIs we will use:**   
+>-  4 API endpoints: From the Coronavirus Tracker API (Herokuapp)- United States, Mexico, Peru, & Australia.
+5. **We are meeting project requirements as a team by:**
+
+>- Using HTML, CSS, and Javascript
+>- Using Axios to retrieve data from an external source, and render such data into the DOM.
+>- Using flexbox
+>- Implementing responsive design on 3 screen sizes, desktop, tablet and mobile using media queries.
+>- Hosting on either Netlify or Surge.
+>- Using an ENV file if our API requires the use of an API Key
 
 ## Project Designed by: Quiana Berry x Katherine Fernandez
 
+ :robot: Future Project
+>- Embedded mapping tool- hover over location for live cases
+>- Side by side comparisons of different places cases and the weather there
+>- Search bar with autocomplete of places
+
+**API Resources**
+
+| API Resource Type  | Links |
+| ------------- | ------------- |
+| Coronavirus Tracker API  | https://github.com/ExpDev07/coronavirus-tracker-api  |
 
 
-
-
-![91-916212_space-nebula-png](https://user-images.githubusercontent.com/24463725/107442194-a78cdd00-6b04-11eb-8685-0cc2a17dc28c.png)
-
+![covidapp](https://user-images.githubusercontent.com/24463725/102285782-f81cfb00-3f04-11eb-8545-d072c479290d.jpg)
 
 :wave: **THANKS for reading**
 
